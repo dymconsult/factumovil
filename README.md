@@ -6,6 +6,7 @@ Actualmente incluimos las siguientes funciones:
 * **Conversion de un numero a su forma literal**: Util para expresar el monto de la factura en forma literal
 
 Se incluye la implementacion de las funciones en los siguientes lenguajes de programacion.
+
 | Lenguaje  | Unit Test | Libreria |
 | ------------- | ------------- | ------------- |
 | [Javascript](javascript)  | [![Build Status](https://travis-ci.org/dymconsult/factumovil.svg?branch=master)](https://travis-ci.org/dymconsult/factumovil) | pendiente |
