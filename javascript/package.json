@@ -1,6 +1,6 @@
 {
   "name": "factumovil",
-  "version": "1",
+  "version": "1.0.0",
   "dependencies": {},
   "devDependencies": {
     "mocha": "~2.4.0"
