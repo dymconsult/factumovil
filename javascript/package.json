@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "dependencies": {},
   "devDependencies": {
-    "mocha": "~2.4.0"
+    "mocha": "~2.4.5",
+	"babyparse": "~0.4.5"
   },
   "scripts": {
     "test": "mocha"

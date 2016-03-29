@@ -31,7 +31,6 @@ function verhoeff(num, times)
         }
         num += inv[c]
     }
-    console.log("vf", num)
     return num
 }
 
@@ -87,7 +86,6 @@ function controlCode(auth, number, nit, date, total, key) {
     input = [auth, number, nit, date, total]
     idx = 0;
     for (i=0; i<5; i++) {
-        console.log(idx, 1+parseInt(vf[i], key.substring(idx, idx+1+parseInt(vf[i]))))
         code += input[i] + key.substring(idx, idx+1+parseInt(vf[i]))
         idx += 1+parseInt(vf[i])
     }
