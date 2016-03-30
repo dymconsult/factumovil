@@ -2,7 +2,6 @@
 assert = require('assert')
 baby = require('babyparse')
 
-
 //pase test file
 csv = baby.parseFiles("../5000CasosPruebaCCVer7.txt", {
 	header: true
@@ -14,6 +13,9 @@ require("vm").runInThisContext(require('fs').readFileSync(__dirname + '/../cc.js
 //execute tests
 //note: the file has an extra endline, and all rows end with "|" causing an erroneous last row, therefore "cvs.data.length-1" is needed
 describe('controlCode', function () {
+	it('should loaded 5000 test cases', function () {
+		assert.equal(csv.data.length-1, 5000)
+	})
 	it('should generate a correct control code', function () {
 		for (var i = 0, len = csv.data.length-1; i < len; i++) {
 			assert.equal(csv.data[i]["CODIGO CONTROL"], controlCode(
