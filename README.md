@@ -11,11 +11,14 @@ Actualmente incluimos las siguientes funciones:
 
 Se incluye la implementacion de las funciones en los siguientes lenguajes de programacion.
 
-| Lenguaje  | Unit Test | Libreria |
-| ------------- | ------------- | ------------- |
-| [Javascript](javascript)  | [![Build Status](https://travis-ci.org/dymconsult/factumovil.svg?branch=master)](https://travis-ci.org/dymconsult/factumovil) | [![npm version](https://badge.fury.io/js/factumovil.svg)](https://badge.fury.io/js/factumovil) |
-| [C++ Qt](c++_qt)  | pendiente  | pendiente |
+| Lenguaje                                                                   |
+| -------------                                                              |
+| [Javascript](javascript) Para navegador y [Node.js](https://nodejs.org) |) |
+| [C++ Qt](c++_qt) Requiere de [Qt Framework](https://www.qt.io/)            |
+| [PHP](php)                                                                 |
+| [Java](java)                                                               |
+| [C#](c#)                                                                   |
 
-
-
-
+| Unit Test (Javascript)                                                                                                        | Libreria (Javascript)                                                                          |
+| -------------                                                                                                                 | -------------                                                                                  |
+| [![Build Status](https://travis-ci.org/dymconsult/factumovil.svg?branch=master)](https://travis-ci.org/dymconsult/factumovil) | [![npm version](https://badge.fury.io/js/factumovil.svg)](https://badge.fury.io/js/factumovil) |

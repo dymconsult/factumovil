@@ -1,6 +1,6 @@
 {
   "name": "factumovil",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Utilities for Bolivian invoice generation",
   "main": "factumovil.js",
   "dependencies": {},
