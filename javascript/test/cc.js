@@ -7,10 +7,10 @@ fs = require('fs')
 require('vm').runInThisContext(fs.readFileSync(__dirname + '/../cc.js'))
 
 //check if test case file exists
-fs.access(__dirname + '../5000CasosPruebaCCVer7.txt', fs.F_OK, function(err) {
+fs.access(__dirname + '/5000CasosPruebaCCVer7.txt', fs.F_OK, function(err) {console.log(err, !err)
     if (!err) {
 		//pase test file
-		csv = baby.parseFiles('../5000CasosPruebaCCVer7.txt', {
+		csv = baby.parseFiles('test/5000CasosPruebaCCVer7.txt', {
 			header: true
 		})
 
