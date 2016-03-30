@@ -1,12 +1,25 @@
 {
   "name": "factumovil",
-  "version": "1.0.0",
-  "dependencies": {},
-  "devDependencies": {
-    "mocha": "~2.4.5",
-	"babyparse": "~0.4.5"
-  },
+  "version": "1.0.2",
+  "description": "Utilities for Bolivian invoice generation",
+  "main": "factumovil.js",
   "scripts": {
     "test": "mocha"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dymconsult/factumovil.git"
+  },
+  "keywords": [
+    "factumovil",
+    "invoice",
+    "bolivia",
+    "utilities"
+  ],
+  "author": "dymconsult",
+  "license": "SEE LICENSE IN UNLICENSE",
+  "bugs": {
+    "url": "https://github.com/dymconsult/factumovil/issues"
+  },
+  "homepage": "https://github.com/dymconsult/factumovil#readme"
 }

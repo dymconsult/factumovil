@@ -1,5 +1,9 @@
 # Factumovil
 
+(`EN`)
+This repository includes several functions to create Bolivian invoices according to requirements of [Impuestos Nacionales de Bolivia](http://impuestos.gob.bo).
+
+(`ES`)
 Este repositorio incluye varias funciones utiles para crear facturas computarizadas segun requerimientos de Impuestos Nacionales de Bolivia. Estas mismas funciones se utilizan en nuestro producto comercial [Factumovil](https://dymconsult.com/factumovil)
 Actualmente incluimos las siguientes funciones:
 * **Codigo de Control**: Genera Codigos de Control segun la [normativa actual](http://impuestos.gob.bo/index.php?option=com_content&view=article&id=1564&Itemid=584)
@@ -9,7 +13,7 @@ Se incluye la implementacion de las funciones en los siguientes lenguajes de pro
 
 | Lenguaje  | Unit Test | Libreria |
 | ------------- | ------------- | ------------- |
-| [Javascript](javascript)  | [![Build Status](https://travis-ci.org/dymconsult/factumovil.svg?branch=master)](https://travis-ci.org/dymconsult/factumovil) | pendiente |
+| [Javascript](javascript)  | [![Build Status](https://travis-ci.org/dymconsult/factumovil.svg?branch=master)](https://travis-ci.org/dymconsult/factumovil) | [![npm version](https://badge.fury.io/js/factumovil.svg)](https://badge.fury.io/js/factumovil) |
 | [C++ Qt](c++_qt)  | pendiente  | pendiente |
 
 
