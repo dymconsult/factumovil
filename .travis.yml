@@ -2,5 +2,5 @@ language: node_js
 node_js:
   - "5.1"
 before_script:
-  - "cd javascript/test && wget http://www.impuestos.gob.bo/images/GACCT/FACTURACION/5000CasosPruebaCCVer7.txt"
+  - "cd javascript/test && wget http://www.impuestos.gob.bo/images/GACCT/FACTURACION/5000CasosPruebaCCVer7.txt && cd ../../"
 script: cd javascript && npm install && npm test
