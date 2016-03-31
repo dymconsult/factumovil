@@ -18,6 +18,7 @@ Se incluye la implementacion de las funciones en los siguientes lenguajes de pro
 | [PHP](php)               |                                                |
 | [Java](java)             |                                                |
 | [C#](csharp)             |                                                |
+| [Go](go)                 |                                                |
 
 | Unit Test (Javascript)                                                                                                        | Libreria (Javascript)                                                                          |
 | -------------                                                                                                                 | -------------                                                                                  |
