@@ -108,6 +108,7 @@ func ControlCode(auth string, number string, nit string, date string, total stri
 		idx += 1 + int(vf[i]-'0')
 	}
 	code = arc4(code, key+vf)
+	fmt.Println(code)
 
 	final_sum := 0
 	total_sum := 0

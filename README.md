@@ -11,14 +11,15 @@ Actualmente incluimos las siguientes funciones:
 
 Se incluye la implementacion de las funciones en los siguientes lenguajes de programacion.
 
-| Lenguaje                 | Notas                                          |
-| -------------            | -------------                                  |
-| [Javascript](javascript) | Para navegador y [Node.js](https://nodejs.org) |
-| [C++ Qt](c++_qt)         | Requiere de [Qt Framework](https://www.qt.io/) |
-| [PHP](php)               |                                                |
-| [Java](java)             |                                                |
-| [C#](csharp)             |                                                |
-| [Go](go)                 |                                                |
+| Lenguaje                 |
+| -------------            |
+| [Javascript](javascript) |
+| [C++ Qt](c++_qt)         |
+| [PHP](php)               |
+| [Java](java)             |
+| [C#](csharp)             |
+| [Go](go)                 |
+| [Python3](python)        |
 
 | Unit Test (Javascript)                                                                                                        | Libreria (Javascript)                                                                          |
 | -------------                                                                                                                 | -------------                                                                                  |

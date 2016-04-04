@@ -1,10 +1,12 @@
-# Factumovil
+# Factumovil - Javascript
 
 (`EN`) Utilities for Bolivian invoice generation
 
 (`ES`) Utilitarios para generar facturas Bolivianas
 
 ## Ejemplo de uso
+
+Para navegador y [Node.js](https://nodejs.org)
 
 ```
 factumovil = require('factumovil')
